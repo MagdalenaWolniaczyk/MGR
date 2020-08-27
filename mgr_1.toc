@@ -1,0 +1,33 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Introduction}{3}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Theory}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Cognitive Diagnosis Models}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Input and output in a CDMs analysis}{6}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Terminology and notation}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Response matrix}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Q-matrix}{7}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Skill profile}{7}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}The DINA model}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}The DINO model}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}The NIDA model}{11}{section.1.5}%
+\contentsline {section}{\numberline {1.6}The G-NIDA model}{13}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Methodology}{13}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Joint Maximum Likelihood Estimation}{13}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Log-likelihood value}{14}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}AIC and BIC criteria}{14}{subsection.1.7.3}%
+\contentsline {subsubsection}{Akaike information criterion}{15}{section*.11}%
+\contentsline {subsubsection}{Bayesian information criterion}{15}{section*.12}%
+\contentsline {subsection}{\numberline {1.7.4}Confusion matrix}{15}{subsection.1.7.4}%
+\contentsline {subsubsection}{Accuracy}{16}{section*.14}%
+\contentsline {subsubsection}{Informedness}{17}{section*.15}%
+\contentsline {subsubsection}{Markedness}{17}{section*.16}%
+\contentsline {subsubsection}{The Matthews Correlation}{17}{section*.17}%
+\contentsline {chapter}{\numberline {2}Simulations}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}CDM misspecification}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Results}{21}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Q-matrix misspecification}{26}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Results}{26}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}Analysis of the real data}{29}{chapter.3}%
+\contentsline {chapter}{Summary and discussion}{31}{chapter*.28}%
+\contentsline {chapter}{\numberline {A}Functions}{33}{appendix.A}%
+\contentsline {chapter}{Bibliography}{35}{section*.29}%

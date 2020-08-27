@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter*.2}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Theory}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Cognitive Diagnosis Models}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.1}{Input and output in a CDMs analysis}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Terminology and notation}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Response matrix}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Q-matrix}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{Skill profile}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{The DINA model}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{The DINO model}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{The NIDA model}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.6}{The G-NIDA model}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.7}{Methodology}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.7.1}{Joint Maximum Likelihood Estimation}{section.1.7}% 14
+\BOOKMARK [2][-]{subsection.1.7.2}{Log-likelihood value}{section.1.7}% 15
+\BOOKMARK [2][-]{subsection.1.7.3}{AIC and BIC criteria}{section.1.7}% 16
+\BOOKMARK [2][-]{subsection.1.7.4}{Confusion matrix}{section.1.7}% 17
+\BOOKMARK [0][-]{chapter.2}{Simulations}{}% 18
+\BOOKMARK [1][-]{section.2.1}{CDM misspecification}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{Results}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{Q-matrix misspecification}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Results}{section.2.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Analysis of the real data}{}% 23
+\BOOKMARK [0][-]{chapter*.28}{Summary and discussion}{}% 24
+\BOOKMARK [0][-]{appendix.A}{Functions}{}% 25
+\BOOKMARK [0][-]{section*.29}{Bibliography}{}% 26

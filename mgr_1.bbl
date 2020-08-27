@@ -1,0 +1,110 @@
+\begin{thebibliography}{10}
+
+\bibitem{book_tables}
+{\sc A., R.~A., Templin, J., Henson, R.~A.}
+\newblock {\em {Diagnostic measurement: theory, methods, and applications}}.
+\newblock Guilford Press, 2010.
+
+\bibitem{aic}
+{\sc {Akaike}, H.}
+\newblock {A new look at the statistical model identification}.
+\newblock {\em IEEE Transactions on Automatic Control 19}, 6 (1974), 716--723.
+
+\bibitem{jmle}
+{\sc Baker, F.~B.}
+\newblock {Methodology Review: Item Parameter Estimation Under the One-, Two-,
+  and Three-Parameter Logistic Models}.
+\newblock {\em Applied Psychological Measurement 11}, 2 (1987), 111--141.
+
+\bibitem{nida_model}
+{\sc Brian W.~Junker, K.~S.}
+\newblock {Cognitive Assessment Models with Few Assumptions, and Connections
+  with Nonparametric Item Response Theory}.
+\newblock {\em Applied Psychological Measurement 25}, 3 (2001), 258--272.
+
+\bibitem{jmle2}
+{\sc Chen, Y., Li, X., Zhang, S.}
+\newblock {Joint Maximum Likelihood Estimation for High-Dimensional Exploratory
+  Item Factor Analysis}.
+\newblock {\em Psychometrika 84}, 1 (March 2019), 124--146.
+
+\bibitem{de_la_torre_2009}
+{\sc de~la Torre, J.}
+\newblock {DINA Model and Parameter Estimation: A Didactic}.
+\newblock {\em Journal of Educational and Behavioral Statistics 34}, 1 (March
+  2009), 115--130.
+
+\bibitem{de_la_torre_2011}
+{\sc de~la Torre, J.}
+\newblock {The Generalized DINA Model Framework}.
+\newblock {\em Psychometrika 76}, 2 (April 2011), 179--199.
+
+\bibitem{de_la_torre_2016}
+{\sc de~la Torre, J., Chiu, C.-Y.}
+\newblock {A General Method of Empirical Q-matrix Validation}.
+\newblock {\em Psychometrika 81}, 2 (June 2016), 253--273.
+
+\bibitem{de_la_torre_2014}
+{\sc de~la Torre, J., Minchen, N.}
+\newblock {Cognitively Diagnostic Assessments and the Cognitive Diagnosis Model
+  Framework}.
+\newblock {\em Psicolog{\'{\i}}a Educativa 20}, 2 (December 2014), 89--97.
+
+\bibitem{gdina_in_r}
+{\sc De~La Torre~J., A.~L.}
+\newblock {Implementation of Cognitive Diagnosis Modeling using the GDINA R
+  Package}.
+\newblock {\em Eurasian Journal of Educational Research 19}, 80 (April 2019),
+  171--192.
+
+\bibitem{aic_bic}
+{\sc Fabozzi, F.~J., Focardi, S., Rachev, S.~T., Arshanapalli, B.}
+\newblock {\em {Appendix E: Model Selection Criterion: AIC and BIC}}.
+\newblock John Wiley \& Sons, Ltd, 2014, pp.~399--403.
+
+\bibitem{cdm_in_r}
+{\sc George, A.~C., Robitzsch, A.}
+\newblock {Cognitive Diagnosis Models in R: A didactic}.
+\newblock {\em The Quantitative Methods for Psychology 11}, 3 (2015), 189--205.
+
+\bibitem{dina_model}
+{\sc Haertel, E.~H.}
+\newblock {Using Restricted Latent Class Models to Map the Skill Structure of
+  Achievement Items}.
+\newblock {\em Journal of Educational Measurement 26}, 4 (1989), 301--321.
+
+\bibitem{rrum}
+{\sc Hartz, S.~M.}
+\newblock {A Bayesian Framework for the Unified Model for Assessing Cognitive
+  Abilities: Blending Theory With Practicality}.
+\newblock {\em Doctoral dissertation, University of Illinois, Urbana Champaign,
+  IL\/} (2002).
+
+\bibitem{nida_maris}
+{\sc Maris, E.~P.}
+\newblock {Estimating multiple classification latent class models }.
+\newblock {\em Psychometrika 64}, 2 (June 1999), 187--212.
+
+\bibitem{powers2011evaluation}
+{\sc Powers, D. M.~W.}
+\newblock {Evaluation: From precision, recall and f-measure to roc.,
+  informedness, markedness \& correlation}.
+\newblock {\em Journal of Machine Learning Technologies 2}, 1 (2011), 37--63.
+
+\bibitem{bic}
+{\sc Schwarz, G.}
+\newblock {Estimating the Dimension of a Model}.
+\newblock {\em The Annals of Statistics 6}, 2 (1978), 461--464.
+
+\bibitem{dino_model}
+{\sc Templin~JL, H.~R.}
+\newblock {Measurement of psychological disorders using cognitive diagnosis
+  models}.
+\newblock {\em Psychological Methods 11}, 3 (September 2006), 287--305.
+
+\bibitem{book_models}
+{\sc W.~Holmes~Finch, B. F.~F.}
+\newblock {\em {Educational and Psychological Measurement}}.
+\newblock Taylor \& Francis, 2018.
+
+\end{thebibliography}

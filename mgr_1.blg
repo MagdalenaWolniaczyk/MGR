@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mgr_1.aux
+The style file: bibliografia_styl.bst
+Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "irt_ctt"
+You've used 19 entries,
+            2253 wiz_defined-function locations,
+            650 strings with 6737 characters,
+and the built_in function-call counts, 5668 in all, are:
+= -- 566
+> -- 183
+< -- 0
++ -- 77
+- -- 58
+* -- 474
+:= -- 917
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 83
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 192
+empty$ -- 506
+format.name$ -- 58
+if$ -- 1181
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 22
+newline$ -- 98
+num.names$ -- 38
+pop$ -- 68
+preamble$ -- 1
+purify$ -- 67
+quote$ -- 0
+skip$ -- 110
+stack$ -- 0
+substring$ -- 462
+swap$ -- 46
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 70
+warning$ -- 0
+while$ -- 64
+width$ -- 21
+write$ -- 192
+(There was 1 warning)
