@@ -4,45 +4,45 @@ The top-level auxiliary file: mgr_1.aux
 The style file: bibliografia_styl.bst
 Database file #1: bibliografia.bib
 Warning--I didn't find a database entry for "irt_ctt"
-You've used 19 entries,
+You've used 23 entries,
             2253 wiz_defined-function locations,
-            650 strings with 6737 characters,
-and the built_in function-call counts, 5668 in all, are:
-= -- 566
-> -- 183
+            675 strings with 7455 characters,
+and the built_in function-call counts, 6967 in all, are:
+= -- 688
+> -- 251
 < -- 0
-+ -- 77
-- -- 58
-* -- 474
-:= -- 917
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 83
++ -- 105
+- -- 82
+* -- 584
+:= -- 1136
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 192
-empty$ -- 506
-format.name$ -- 58
-if$ -- 1181
+cite$ -- 23
+duplicate$ -- 232
+empty$ -- 607
+format.name$ -- 82
+if$ -- 1445
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 22
-newline$ -- 98
-num.names$ -- 38
-pop$ -- 68
+int.to.str$ -- 23
+missing$ -- 27
+newline$ -- 118
+num.names$ -- 46
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 87
 quote$ -- 0
-skip$ -- 110
+skip$ -- 131
 stack$ -- 0
-substring$ -- 462
-swap$ -- 46
+substring$ -- 540
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 84
 warning$ -- 0
-while$ -- 64
-width$ -- 21
-write$ -- 192
+while$ -- 76
+width$ -- 25
+write$ -- 232
 (There was 1 warning)

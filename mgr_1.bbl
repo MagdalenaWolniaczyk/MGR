@@ -22,6 +22,12 @@
   with Nonparametric Item Response Theory}.
 \newblock {\em Applied Psychological Measurement 25}, 3 (2001), 258--272.
 
+\bibitem{cdm_and_qmat_misspec}
+{\sc Chen, J., de~la Torre, J., Zhang, Z.}
+\newblock {Relative and Absolute Fit Evaluation in Cognitive Diagnosis
+  Modeling}.
+\newblock {\em Journal of Educational Measurement 50}, 2 (2013), 123--140.
+
 \bibitem{jmle2}
 {\sc Chen, Y., Li, X., Zhang, S.}
 \newblock {Joint Maximum Likelihood Estimation for High-Dimensional Exploratory
@@ -62,6 +68,11 @@
 \newblock {\em {Appendix E: Model Selection Criterion: AIC and BIC}}.
 \newblock John Wiley \& Sons, Ltd, 2014, pp.~399--403.
 
+\bibitem{fraction_subtraction}
+{\sc George, A., Robitzsch, A., Kiefer, T., Groß, J., Ünlü, A.}
+\newblock {The R Package CDM for Cognitive Diagnosis Models}.
+\newblock {\em Journal of Statistical Software, Articles 74}, 2 (2016), 1--24.
+
 \bibitem{cdm_in_r}
 {\sc George, A.~C., Robitzsch, A.}
 \newblock {Cognitive Diagnosis Models in R: A didactic}.
@@ -95,6 +106,18 @@
 {\sc Schwarz, G.}
 \newblock {Estimating the Dimension of a Model}.
 \newblock {\em The Annals of Statistics 6}, 2 (1978), 461--464.
+
+\bibitem{item_discrimination}
+{\sc sun Lee, Y., la~Torre, J., Park, Y.}
+\newblock {Relationships between cognitive diagnosis, CTT, and IRT indices: an
+  empirical investigation}.
+\newblock {\em Asia Pacific Education Review 13\/} (2012), 333--345.
+
+\bibitem{tatsuoka}
+{\sc Tatsuoka, K.~K.}
+\newblock {\em { Toward an Integration of Item-Response Theory and Cognitive
+  Error Diagnoses }}.
+\newblock ERIC Clearinghouse [Washington, D.C.], 1987.
 
 \bibitem{dino_model}
 {\sc Templin~JL, H.~R.}

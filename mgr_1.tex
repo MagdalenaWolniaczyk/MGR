@@ -836,6 +836,263 @@ Summarizing, after comparing the results of the estimation with the results for 
 
 \chapter{Analysis of the real data}\label{chapter:real_data}
 
+The aim of the analysis is to examine students' abilities in mathematics, more specifically in the fraction subtraction problems. Skill and item-related information will be extracted and analyzed. The $Q$-matrix will also be analyzed. 
+
+The real data used for this analysis were responses from 51 primary school students from 4th to 8th grade to 20 fraction subtraction problems measuring attributes presented in Table \ref{tab:real_skills}. The test was designed in two versions, students were randomly assigned to one of the versions. The first of them was proposed by Tatsuoka in 1990 \cite{tatsuoka} and analyzed by Chen, de la Torre and Zhang in 2013 \cite{cdm_and_qmat_misspec}, among others. The second one was created analogously so that each item requires the same skills. In Table \ref{tab:qmatrix_real} are presented the items used in those tests and the corresponding $Q$-matrix. For the estimation was used \texttt{din()} function from the \texttt{CDM} package. 
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c l} 
+		\hline
+		{\rule{0pt}{3ex}}Skill & Meaning of the skill \\
+		\hline
+		{\rule{0pt}{3ex}}$\alpha_1$ & converting a whole number to a fraction \\
+		$\alpha_2$ & separating a whole number from a fraction \\
+		$\alpha_3$ & simplifying before subtracting \\
+		$\alpha_4$ & finding a common denominator \\
+		$\alpha_5$ & borrowing from the whole part \\
+		$\alpha_6$ & borrowing to subtract the second numerator from the first \\
+		$\alpha_7$ & subtracting numerators \\
+		$\alpha_8$ & reducing answers to the simplest form \\ [0.7ex] 
+		\hline
+	\end{tabular}
+	\caption{The description of skills \cite{fraction_subtraction}.}
+	\label{tab:real_skills} 
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l l l c c c c c c c c} 
+		\hline
+		{\rule{0pt}{3ex}}Item & \multicolumn{2}{c}{Test} & \multicolumn{8}{c}{Skill} \\
+		& version I & version II &  $\alpha_1$ & $\alpha_2$ & $\alpha_3$ &  $\alpha_4$ & $\alpha_5$ & $\alpha_6$ & $\alpha_7$ & $\alpha_8$ \\ [0.5ex] 
+		\hline
+		{\rule{0pt}{3ex}}1 & $\frac{5}{3} - \frac{3}{4}$ & $\frac{7}{4} - \frac{5}{6}$ & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\ [1ex]
+		2 & $\frac{3}{4} - \frac{3}{8}$ & $\frac{3}{5} - \frac{3}{10}$ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\ [1ex]
+		3 & $\frac{5}{6} - \frac{1}{9}$ & $\frac{5}{6} - \frac{2}{9}$ & 0 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\ [1ex]
+		4 & $3\frac{1}{2} - 2\frac{3}{2}$ & $4\frac{1}{3} - 3\frac{4}{3}$ & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 \\ [1ex]
+		5 & $4\frac{3}{5} - 3\frac{4}{10}$ & $6\frac{4}{5} - 4\frac{6}{10}$ & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\ [1ex]
+		6 & $\frac{6}{7} - \frac{4}{7}$ & $\frac{8}{9} - \frac{5}{9}$ & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\ [1ex]
+		7 & $3 - 2\frac{1}{5}$ & $7 - 6\frac{3}{8}$ & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\ [1ex]
+		8 & $\frac{2}{3} - \frac{2}{3}$ & $\frac{7}{8} - \frac{7}{8}$ & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\ [1ex]
+		9 & $3\frac{7}{8} - 2$ & $4\frac{5}{7} - 3$ & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\ [1ex]
+		10 & $4\frac{4}{12} - 2\frac{7}{12}$ & $5\frac{11}{15} - 2\frac{13}{15}$ & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 1 \\ [1ex]
+		11 & $4\frac{1}{3} - 2\frac{4}{3}$ & $3\frac{1}{4} - 1\frac{5}{4}$ & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 0 \\ [1ex]
+		12 & $1\frac{1}{8} - \frac{1}{8}$ & $2\frac{5}{6} - \frac{5}{6}$ & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\ [1ex]
+		13 & $3\frac{3}{8} - 2\frac{5}{6}$ & $3\frac{2}{6} - 2\frac{3}{4}$ & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\ [1ex]
+		14 & $3\frac{4}{5} - 3\frac{2}{5}$ & $2\frac{5}{6} - 2\frac{4}{6}$ & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 \\ [1ex]
+		15 & $2 - \frac{1}{3}$ & $3 - \frac{3}{4}$ & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\ [1ex]
+		16 & $4\frac{5}{7} - 1\frac{4}{7}$ & $3\frac{2}{3} - 2\frac{1}{3}$ & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\ [1ex]
+		17 & $7\frac{3}{5} - \frac{4}{5}$ & $5\frac{4}{7} - \frac{5}{7}$ & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 0 \\ [1ex]
+		18 & $4\frac{1}{10} - 2\frac{8}{10}$ & $5\frac{2}{9} - 3\frac{7}{9}$ & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 \\ [1ex]
+		19 & $4 - 1\frac{4}{3}$ & $5 - 2\frac{5}{4}$ & 1 & 1 & 1 & 0 & 1 & 0 & 1 & 0 \\ [1ex]
+		20 & $4\frac{1}{3} - 1\frac{5}{3}$ & $5\frac{1}{3} - 2\frac{4}{3}$ & 0 & 1 & 1 & 0 & 1 & 0 & 1 &0\\[0.5ex] 
+		\hline
+	\end{tabular}
+	\caption{The test items and the weight matrix $Q_{20 \times 8}$.}
+	\label{tab:qmatrix_real} 
+\end{table}
+
+The first element of the analysis will be examining item parameters (slipping $s_j$ and guessing $g_j$), item $p$-values (the percentage of students who responded the item correctly) and two statistics related to item parameters: the item discrimination parameter $\delta_1 = 1 - g_j - s_j$ described by Lee, de la Torre \& Park in 2012 \cite{item_discrimination}, which presents separation of examinees with low abilities from examinees with high abilities (having few \& many skills), the higher $\delta_1$, the better separation, and second statistic, the item easiness parameter $\delta_2 = [g_j + (1-s_j)]/2$ used by George \& Robitzsch in 2015 \cite{cdm_in_r}, which is the average probability of correctly responding the item. In tables will be presented minimums, maximums, means and standard deviations of parameters. 
+
+The second element will be the analysis of the examinees' possession of the skills. Figures will present the skill distributions, the skill class distributions (analysis of those results allows answering the question what is the proportion of examinees possessing a specific skills' combination) and the distributions of students' answers to the test items. 
+
+\subsubsection{Analysis of two groups}
+
+In the beginning, it is necessary to compare the results for two separate groups. One of the test versions was proposed and analyzed by scientists, therefore it can be assumed that it was created correctly, but the second one was created independently based on the first one, so it may contain mistakes. The first version of the test was taken by 22 students, while the second version was taken by 29 students. 
+
+In Table \ref{tab:item_param_gr} are presented minimums, maximums, means and standard deviations of mentioned before parameters for two separate groups of examinees (who solved two different versions of the test). Minimum and maximum values of guessing parameters for both groups are equal to 0 and 1, respectively, but greater differences between the parameter values are observed for the first version. The slipping parameters range from 0 to 0.41 for the version I and from 0 to 0.66 for version II. Looking especially at the standard deviation, it can be seen that the opposite situation is true -- greater differences between the slipping parameter values are observed for the second version. Focusing on the p-values, 32\% and 41\% of the examinees solved the most difficult item in groups I and II respectively and 95\% and 97\% of the students solved the easiest one in groups I and II respectively. On average 78\% and 81\% of the examinees solved all the items, which suggests that both versions of the test turned out to be quite simple for this group of respondents. The results obtained for item easiness parameter, where mean is equal to 0.71 and 0.70 respectively, confirm these assumptions. The most surprising for both test versions were the results obtained for the item discrimination parameters, especially the minimum, which is equal to -0.11 and -0.66. Such a low value of the item discrimination parameter is caused by the high guessing parameters (equal 1). The item discrimination parameters in such cases can be interpreted as equal 0, which means that for this item it is impossible to separate examinees possessing relevant skills and those who do not. Mean of the $\delta_1$ is equal to 0.41 and 0.43 for the first and the second version of the test respectively, thus the items, in general, do not separate the examinees well in both cases.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l r r r r c r r r r} 
+		\hline
+		{\rule{0pt}{3ex}} & \multicolumn{4}{c}{Version I} & & \multicolumn{4}{c}{Version II} \\
+		Type of characteristic & Min & Max & Mean & SD &  & Min & Max & Mean & SD \\
+		\hline
+		{\rule{0pt}{3ex}}guessing parameters  & 0.00 & 1.00 & 0.51 & 0.39 &  & 0.00 & 1.00 & 0.48 & 0.28 \\
+		slipping parameters & 0.00 & 0.41 & 0.09 & 0.11 &  & 0.00 & 0.66 & 0.08 & 0.15 \\ 
+		item $p$-values & 0.32 & 0.95 & 0.78 & 0.16 &  & 0.41 & 0.97 & 0.81 & 0.14 \\ 
+		item discrimination & -0.11 & 1.00 & 0.41 & 0.40 &  & -0.66 & 0.86 & 0.43 & 0.34 \\ 
+		item easiness & 0.30 & 0.97 & 0.71 & 0.14 &  & 0.43 & 0.94 & 0.70 & 0.14\\ [0.5ex] 
+		\hline
+	\end{tabular}
+	\caption{The summary of item characteristics for two, separate groups.}
+	\label{tab:item_param_gr} 
+\end{table}
+
+Figure \ref{histogram_ans_groups} shows the distribution of students' answers to both test versions items. None of the examinees responded to less than 7 problems. Most of the students, 70\% in the first group and 72\% in the second group answered correctly for more than 15 questions. On average, students answered correctly to 15.5 and 16.17 questions in groups I and II, respectively. Such results confirm the assumptions that the test turned out to be quite simple for both study groups.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Responses_distributions.png}
+	\caption{Plots of the responses distributions.}
+	\label{histogram_ans_groups}
+\end{figure}
+
+Figure \ref{skill_class_dist_groups} presents the skill class distributions for both test versions. Because the test allows checking 8 different attributes, the number of possible skill profiles is equal to $2^8 = 256$ and the value of skill class probability is usually close to 0. What can be observed is that for the first group, three the most likely skill profiles are [11011111] ($P([1,1,0,1,1,1,1,1])=0.32$), [01111111] ($P([1,1,1,1,1,1,1,1])=0.09$), and [11111111] ($P([1,1,1,1,1,1,1,1])=0.18$). For the second group, there is only one significantly probable skills profile [11111111] ($P([1,1,1,1,1,1,1,1])=0.65$). Obtained results suggest that in both study groups, the probability of having at least 7 skills is very high. For the first group it is equal almost 64\% and for the second group almost 68\%.
+
+\begin{figure}[!ht]
+	\centering
+	\begin{multicols}{2}
+		\includegraphics[width=0.5\textwidth]{Skill_class_probability_1.pdf}
+		
+		\includegraphics[width=0.5\textwidth]{Skill_class_probability_2.pdf}
+	\end{multicols} 
+	\caption{Plots of the skill class distributions $P(\alpha_i)$ for two test groups (the version I on the left side and version II on the right side).}\label{skill_class_dist_groups}
+\end{figure}
+
+Figure \ref{skill_possession_groups} presents two plots of the skill distribution. On average, 77\% of students who solved the first version of the test and 85\% of students who solved the second version, possess all of the skills. For the first group, it can be observed that the fewest students (only 46\%) possess the $\alpha_3$ skill (simplifying before subtracting), and the most (almost 90\%) possess the $\alpha_4$ (finding a common denominator). For the second group, the skill possessed by the smallest number of students is $\alpha_6$ (borrowing to subtract the second numerator from the first) and the one possessed by the greatest number of examinees is $\alpha_7$ (subtracting numerators). These results are not as bothering as comparing the two groups with each other. On the first sight, it is noticeable that the students taking the second version of the test mostly have all the skills and the most diverse results for the skill mastery probabilities are obtained for the skill $\alpha_3$. Above all, the results obtained for this skill questions the consistency of both versions of the test, so it is important to check if the versions of the tests are comparable.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Skill_mastery_probabilities.png}
+	\caption{Plot of the skill distribution $P(\alpha_k)$.}
+	\label{skill_possession_groups}
+\end{figure}
+
+To compare the version of the test, two sequences of random variables should be analyzed
+$$ X_1, \ldots, X_8 \sim \mathcal{B}(p_1,22),\ldots,\mathcal{B}(p_8,22) $$
+\noindent and
+$$ Y_1, \ldots, Y_8 \sim \mathcal{B}(q_1,29),\ldots,\mathcal{B}(q_8,29), $$
+where $\mathcal{B}(s,n)$ is the binomial distribution, $s$ is a success probability for each trial and $n$ is a number of trials. In this case, $n$ is equal to the number of students solving each of the test versions (22 and 29 for the first and the second version respectively) and the probabilities $(p_1,\ldots,p_8)$ and $q_1,\ldots,q_8)$ are related to the number of students who possess particular skills $\alpha_1,\ldots,\alpha_8$. The necessary assumption is that the possession of skills is independent. 
+
+Having defined the above expressions, it is possible to perform a two-sample proportion hypothesis tests\footnote{Source: https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/8-chi-squared-tests, https://pl.wikipedia.org/wiki/Test\_dla\_proporcji (access: VIII 2020)} and check the following hypotheses
+$$ H_0: p_k = q_k \qquad \text{and} \qquad H_1: p_k \neq q_k.$$
+
+Such hypotheses should be tested for each of the skills $\alpha_{k}$, but based on the independence of the skills, it is possible to apply the Bonferroni correction, which is a statistical tool to counteract the problem of multiple comparisons, by reducing the nominal significance level of each set of related tests in direct proportion to their total number\footnote{Source: https://en.wikipedia.org/wiki/Bonferroni\_correction (access: VIII 2020)}. Thanks to this, the proportion test will be a test of all 8 skills. Assuming the significance level for the entire test is to be $\gamma = 0.05$, the test for each skill will have a significance level of $\gamma_k = \frac{0.05}{8} = 0.00625$. 
+
+The \texttt{prop.test()} function from the \texttt{stats} library was used to carry out the test. The function arguments are a vector of counts of trials $n$ (22 for the first test version and 29 for the second in this case) and a vector of counts of successes $x$. Table \ref{tab:p_values_groups_comparison} presents vectors of counts of successes for the first ($x_1$) and the second ($x_2$) test and obtained for each skill $p$-values.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{c c c c c c c c c} 
+		\hline
+		{\rule{0pt}{3ex}} & \multicolumn{8}{c}{Skill} \\
+		& $\alpha_1$ & $\alpha_2$ & $\alpha_3$ &  $\alpha_4$ & $\alpha_5$ & $\alpha_6$ & $\alpha_7$ & $\alpha_8$ \\
+		\hline
+		{\rule{0pt}{3ex}}$x_1$ & 16 & 18 & 11 & 19 & 19 & 15 & 19 & 18 \\
+		$x_2$ & 19 & 23 & 21 & 24 & 25 & 22 & 27 & 26 \\
+		$p$-value & 0.8065 & 1.0000 & 0.1779 & 1.0000 & 1.0000 & 0.7703 & 0.7442 & 0.6931 \\ [0.5ex] 
+		\hline
+	\end{tabular}
+	\caption{The vectors of counts of successes and $p$-values for each skill $\alpha_{k}$.}
+	\label{tab:p_values_groups_comparison} 
+\end{table}
+
+It can be seen that none of the values is less than the significance level $\gamma_k = 0.00625$, which means that there are no grounds to reject the null hypothesis in any of the cases. It can be concluded that the groups solving the tests performed comparably, and knowing that the students were assigned to the tests randomly, it can be concluded that the tests were also comparable.
+
+\subsubsection{Analysis of all students}
+
+Knowing that both versions of the test are comparable, it is possible to repeat the previous analysis for the whole group of examinees.
+
+Table \ref{tab:item_param} presents minimums, maximums, means and standard deviations of parameters for the whole group. Minimum and maximum values for guessing parameter were obtained once and they are equal to 0 and 1 respectively. The slipping parameters range from 0 to 0.45, but the value 0 occurred 6 times. Looking at the p-values: 51\% of the examinees solved the most difficult item, 94\% of the students solved the easiest one and on average 79\% of the examinees solved all the items. For the easiness parameter, the mean is equal to 0.72, what confirm assumptions about the difficulty of the test. The item discrimination parameter minimum is equal to -0.45. Again it will be interpreted as equal 0, for the item which obtained this value it is impossible to separate examinees possessing relevant skills and those who do not. Mean of the $\delta_1$ is equal to 0.39, thus the items, in general, do not separate the examinees well.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{l r r r r } 
+		\hline
+		{\rule{0pt}{3ex}}Type of characteristic & Min & Max & Mean & SD \\
+		\hline
+		{\rule{0pt}{3ex}}guessing parameters & 0.00 & 1.00 & 0.53 & 0.27 \\
+		slipping parameters & 0.00 & 0.45 & 0.08 & 0.12 \\ 
+		item $p$-values & 0.51 & 0.94 & 0.79 & 0.12 \\ 
+		item easiness & 0.42 & 0.91 & 0.72 & 0.14\\
+		item discrimination & -0.45 & 0.86 & 0.39 & 0.30\\ [0.5ex] 
+		\hline
+	\end{tabular}
+	\caption{The summary of item characteristics.}
+	\label{tab:item_param} 
+\end{table}
+
+Figure \ref{histogram_ans} shows the distribution of students' answers to the test items. None of the examinees responded to less than 7 problems, more than 58\% of the examinees responded correctly to at least 17 items. Such results confirm the assumptions that the test turned out to be simple for the whole study group. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Responses_distribution.png}
+	\caption{Plot of the responses distribution.}
+	\label{histogram_ans}
+\end{figure}
+
+Figure \ref{skill_class_dist} presents the skill class distribution. Analysis of the results allows answering the question of what is the proportion of examinees possessing a specific skills' combination. What can be seen is that most examinees possess all skills ($P([1,1,1,1,1,1,1,1])=0.48$). Furthermore, other skill profiles, which probability is higher than or equal to 5\% are $P([1,1,0,1,1,1,1,1])=0.11$ and $P([1,1,1,1,1,0,1,1])=0.05$. In this study group, the probability of having at least 7 skills in bigger than 64\%. It can be concluded that most students have mastered the skills necessary to solve fraction subtraction problems.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Skill_class_probability_0.pdf}
+	\caption{Plot of the skill class distribution $P(\alpha_i)$.}
+	\label{skill_class_dist}
+\end{figure}
+
+Figure \ref{skill_possession} presents the skill distribution. On average, 80\% of students possess all of the skills. The fewest students (although as many as 70\%) possess the $\alpha_2$ (separating a whole number from a fraction), and the most (almost 90\%) possess the $\alpha_4$ (finding a common denominator).
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Skill_mastery_probability.png}
+	\caption{Plot of the skill distribution $P(\alpha_k)$.}
+	\label{skill_possession}
+\end{figure}
+
+In summary, the test turned out to be simple for a group of 51 examined students. Almost half of them mastered all the skills checked by the test. None of the examinees responded correctly to less than 7 items and item easiness parameter was 71\% on average.
+
+\subsubsection{Analysis of simulated data}
+The previous analysis involved a group of 51 students. Because the group of the examinees was very small, this part will be concerned an additional simulation in which 1000 random responses (with achieved for the real group of students slipping $s$ and guessing $g$ parameters) will be generated with DINA model. Obtained results for the group of respondents and the simulation will be compared.
+
+Figure \ref{histogram_ans_sim} shows the distribution of simulated answers to the test items. The shape of the plot is similar to the density of normal distribution and it is completely different than for the real data. Only 9\% of the simulated responses are correct for more than 15 items, over 37\% of the simulated respondents answered correctly to 9,10 or 11 items. On average, the simulated student answered correctly for 12.09 items.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Responses_sim_distribution.png}
+	\caption{Plot of the simulated responses distribution.}
+	\label{histogram_ans_sim}
+\end{figure}
+
+Figure \ref{skill_class_dist_sim} presents the skill class distribution. What can be seen, in this case, there is no such distinctive skill profile as previously. None of the probabilities is greater than 2\%. Probabilities higher than 1\% were obtained for the following skill profiles [11001010], [11000011], [01010011], [11100011], [11011010], [11001011], [11000111], [01110011], [01011110], and [11100111]. Probability of having a skill profile with more than 7 skills is very low and it equals 4\%.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Skill_class_probability_sim.pdf}
+	\caption{Plot of the skill class distribution $P(\alpha_i)$.}
+	\label{skill_class_dist_sim}
+\end{figure}
+
+Figure \ref{skill_possession_sim} presents the skill distribution. The resulting plot is significantly different from the plot for the real data. On first sight, it is noticeable that the skill mastery probability is lower. On average, 52\% of simulated students possess all of the skills. The fewest students (48\%) possess the $\alpha_3$ (simplifying before subtracting), and the most (over 58\%) possess the $\alpha_8$ (reducing answers to the simplest form). 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Skill_mastery_probability_sim.png}
+	\caption{Plot of the skill distribution $P(\alpha_k)$.}
+	\label{skill_possession_sim}
+\end{figure}
+
+Comparing the results for real data with the results for simulated data leads to conclusions such as that the test group must have had a very good knowledge of subtracting fractions because the obtained results are very positive. It also raises important questions, such as whether the test was created in the best possible way and whether there is a~solution that would improve the simulation results since the simulation results differed so significantly from the results on the group of students.
+
+To try to answer those questions, it can be simulated subtracting or adding $Q$-matrix vectors and checking the results.
+
+The first simulation was to reduce the size of the $Q$-matrix. In each iteration, one of the randomly selected rows of the $Q$-matrix was removed from it, then the simulation was performed in the same way as before. The informedness measure and the average skill mastery probability value were used to check the results. For each size of the $Q$-matrix, the simulation was repeated 10 times to get more accurate results. 
+
+Figure \ref{smaller_qmat} shows the values of the obtained parameters. More interesting are results obtained for the informedness measure, because a downward trend is noticeable what allows stating that reducing the number of $q$-vectors adversely affects informedness. The plot showing the average value of skill mastery probability does not allow drawing clear conclusions.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Smaller_qmatrix_results1.png}
+	\caption{Values of the parameters obtained for $Q$-matrix with removed $q$-vectors.}
+	\label{smaller_qmat}
+\end{figure}
+
+The second simulation was to increase the size of the $Q$-matrix. In each iteration, one of the randomly selected rows of the $Q$-matrix was added to it. The simulation and analysis were performed in the same way as before. 
+
+Figure \ref{bigger_qmat} shows the values of the obtained parameters. This time the results are not as obvious as before. However, almost every time, increasing the size of the $Q$-matrix had a positive effect on both informedness and mean skill mastery probability values. It should be considered whether extending the test will not affect the concentration of the examinees and whether the improvement of the informedness value is significant enough to make it meaningful.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{Bigger_qmatrix_results1.png}
+	\caption{Values of the parameters obtained for $Q$-matrix with added $q$-vectors.}
+	\label{bigger_qmat}
+\end{figure}
+
+To sum up, the 8-skill test is not the simplest one. It is hard to find a balance between the number of skills tested and the number of items. However, after analyzing the obtained results, it can be concluded that the test is doing well enough and the created $Q$-matrix is correct.
+
+
 {\backmatter \chapter{Summary and discussion}}
 
 \appendix

@@ -28,6 +28,9 @@
 \contentsline {section}{\numberline {2.2}Q-matrix misspecification}{26}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Results}{26}{subsection.2.2.1}%
 \contentsline {chapter}{\numberline {3}Analysis of the real data}{29}{chapter.3}%
-\contentsline {chapter}{Summary and discussion}{31}{chapter*.28}%
-\contentsline {chapter}{\numberline {A}Functions}{33}{appendix.A}%
-\contentsline {chapter}{Bibliography}{35}{section*.29}%
+\contentsline {subsubsection}{Analysis of two groups}{31}{section*.30}%
+\contentsline {subsubsection}{Analysis of all students}{34}{section*.36}%
+\contentsline {subsubsection}{Analysis of simulated data}{36}{section*.41}%
+\contentsline {chapter}{Summary and discussion}{41}{chapter*.47}%
+\contentsline {chapter}{\numberline {A}Functions}{43}{appendix.A}%
+\contentsline {chapter}{Bibliography}{45}{section*.48}%
