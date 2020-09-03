@@ -34,6 +34,11 @@
   Item Factor Analysis}.
 \newblock {\em Psychometrika 84}, 1 (March 2019), 124--146.
 
+\bibitem{bonferroni}
+{\sc Cleophas, T., Zwinderman, A., Cleophas, T., Cleophas, E.}
+\newblock {\em Statistics Applied to Clinical Trials}.
+\newblock Springer Netherlands, 2006.
+
 \bibitem{de_la_torre_2009}
 {\sc de~la Torre, J.}
 \newblock {DINA Model and Parameter Estimation: A Didactic}.
@@ -68,6 +73,12 @@
 \newblock {\em {Appendix E: Model Selection Criterion: AIC and BIC}}.
 \newblock John Wiley \& Sons, Ltd, 2014, pp.~399--403.
 
+\bibitem{irt_ctt}
+{\sc Freedheim, D., Weiner, I., Schinka, J., Velicer, W., Healy, A., Proctor,
+  R.}
+\newblock {\em Handbook of Psychology, Research Methods in Psychology}.
+\newblock Handbook of Psychology. Wiley, 2003.
+
 \bibitem{fraction_subtraction}
 {\sc George, A., Robitzsch, A., Kiefer, T., Groß, J., Ünlü, A.}
 \newblock {The R Package CDM for Cognitive Diagnosis Models}.
@@ -77,6 +88,12 @@
 {\sc George, A.~C., Robitzsch, A.}
 \newblock {Cognitive Diagnosis Models in R: A didactic}.
 \newblock {\em The Quantitative Methods for Psychology 11}, 3 (2015), 189--205.
+
+\bibitem{qmat_identifiability}
+{\sc Gu, Y., Xu, G.}
+\newblock {Sufficient and Necessary Conditions for the Identifiability of the
+  \$Q\$-matrix}.
+\newblock {\em arXiv: Statistics Theory\/} (2018).
 
 \bibitem{dina_model}
 {\sc Haertel, E.~H.}
@@ -91,6 +108,18 @@
 \newblock {\em Doctoral dissertation, University of Illinois, Urbana Champaign,
   IL\/} (2002).
 
+\bibitem{qmat_complete}
+{\sc Köhn, H.-F., Chiu, C.-Y.}
+\newblock {How to Build a Complete Q-Matrix for a Cognitively Diagnostic Test}.
+\newblock {\em Journal of Classification 35}, 2 (July 2018), 273--299.
+
+\bibitem{m2statistic}
+{\sc Liu, Y., Tian, W., Xin, T.}
+\newblock {An Application of M2 Statistic to Evaluate the Fit of Cognitive
+  Diagnostic Models}.
+\newblock {\em Journal of Educational and Behavioral Statistics 41}, 1
+  (February 2016), 3--26.
+
 \bibitem{nida_maris}
 {\sc Maris, E.~P.}
 \newblock {Estimating multiple classification latent class models }.
@@ -102,10 +131,20 @@
   informedness, markedness \& correlation}.
 \newblock {\em Journal of Machine Learning Technologies 2}, 1 (2011), 37--63.
 
+\bibitem{proportion_test}
+{\sc Rajagopalan, V.}
+\newblock {\em Selected Statistical Tests}.
+\newblock New Age International (P) Limited, 2006.
+
 \bibitem{bic}
 {\sc Schwarz, G.}
 \newblock {Estimating the Dimension of a Model}.
 \newblock {\em The Annals of Statistics 6}, 2 (1978), 461--464.
+
+\bibitem{statistics}
+{\sc Shao, J.}
+\newblock {\em {Mathematical Statistics}}.
+\newblock Springer-Verlag New York, 2003.
 
 \bibitem{item_discrimination}
 {\sc sun Lee, Y., la~Torre, J., Park, Y.}
